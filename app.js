@@ -6,7 +6,7 @@ const port = process.env.PORT || 5007;
 const cookieParser = require("cookie-parser");
 const DefaultData = require("./defaultdata");
 require("./db/conn");
-const router = require("./routes/router");
+const router = require("./routes/router")
 
 
 
